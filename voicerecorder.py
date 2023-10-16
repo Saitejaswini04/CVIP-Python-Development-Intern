@@ -6,7 +6,7 @@ FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 44100  # Sample rate (samples per second)
 CHUNK = 1024  # Size of each audio chunk (frames per buffer)
-RECORD_SECONDS =   6# Duration of recording in seconds
+RECORD_SECONDS =   9# Duration of recording in seconds
 OUTPUT_FILENAME = "recorded_audio.wav"  # Name of the output file
 
 # Initialize PyAudio
